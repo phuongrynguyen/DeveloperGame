@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <title> Profile Ca Nhan </title>
+</head>
+
+<body>
+    <!-- Music -->
+    <audio id="audio" autoplay="true" loop="true">
+        <source src="Music/dinhnghiatuyeu.mp3">
+    </audio>
+    <!-- Proffile -->
+    <canvas id="snow"></canvas>
+    <!-- Layout -->
+    <div class="code">
+
+        <!-- core web -->
+        <div class="corw">
+            <!-- head -->
+            <div class="head-rw">
+                <h3>
+                    Tô Mỳ
+                </h3>
+            </div>
+            <!-- layout -->
+            <div class="layout">
+                <div class="head"></div>
+                <div class="benner">
+                    <div class="item">
+                        <!-- avatar -->
+                        <div class="avatar">
+                            <img src="Imgate/avatar.jpg" alt="avatar ca nhan">
+                        </div>
+                        <!-- name -->
+                        <div class="name">
+                            <h1>
+                                Tô Mỳ <i class="fa-solid fa-circle-check"></i>
+                            </h1>
+                        </div>
+                    </div>
+
+                    <!-- canner -->
+                    <div class="canner">
+                        <!-- Thông tin cá nhân -->
+                        <div class="canner_item">
+                            <h4>
+                                Thông tin cá nhân
+                            </h4>
+                        </div>
+                        <!-- chi tiet thong tin -->
+                        <div class="chitiet">
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                <span>
+                                    Dia chi: <b>Ha Noi</b>
+                                </span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mug-hot"></i>
+                                <span>
+                                    Cong viec: <b>Developer Game</b>
+                                </span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-globe"></i>
+                                <span>
+                                    Web: <a href="#">Tai day</a>
+                                </span>
+                            </li>
+                            <li style="display: flex; gap: .5rem;">
+                                <i class="fa-solid fa-music"></i>
+                                <span style="display: flex; gap: .5rem;">
+                                    Music: <p id="audio-list" style="color: crimson; cursor: pointer;">Bat</p>
+                                    <p id="audiolist" style="color: crimson; cursor: pointer;">Tat</p>
+                                </span>
+                            </li>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <!-- Sen body -->
+                <div class="Senbody">
+                    <!-- Bai viet -->
+                    <div id="idlog-baiviet">
+
+                    </div>
+
+                    <!-- thong tin  -->
+                    <div id="idlog-thongtin">
+                        <!-- text tieu de -->
+                        <div class="tieude">
+                            <h4>
+                                Xin chào bạn , mình là Mạnh Cường , một người đan mê chơi game online ,
+                                Mình có 1 số dịch vụ và mã nguồn chia sẻ , cho các bạn nào muốn lấy về vọc vạch code.
+                            </h4>
+                        </div>
+
+                        <!-- Ky nang -->
+                        <div class="kynang">
+                            <h2>
+                                Kỹ Năng
+                            </h2>
+                        </div>
+
+                        <!-- ngon ngu -->
+                        <div class="Btn">
+                            <button>PHP</button>
+                            <button>JAVA</button>
+                            <button>C#</button>
+                            <button>C/C++</button>
+                            <button>Nodejs</button>
+                            <button>.Next</button>
+                            <button>React</button>
+                            <button>Lua</button>
+                        </div>
+
+                        <!-- Mang xa hoi -->
+                        <div class="mangxahoi">
+                            <h2>
+                                Mạng Xã Hội
+                            </h2>
+                        </div>
+
+                        <!--link mang xa hoi -->
+                        <div class="link">
+                            <button>
+                                <a href="">Facebook</a>
+                            </button>
+                            <button>
+                                <a href="">Zalo</a>
+                            </button>
+                            <button>
+                                <a href="">TikTok</a>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Dich vu -->
+                    <div class="dichvu">
+                        <!-- Tieu de cac dich vu -->
+                        <div class="tieude_cacdichvu">
+                            <h2>
+                                Các dịch vụ
+                            </h2>
+                        </div>
+
+                        <!-- ds -->
+                        <div class="ds">
+                            <li><span>Nhận code các dự án object project cá nhân và team dev</span></li>
+                            <li><span>Nhận fix bug code trong các dự án</span></li>
+                            <li><span>Nhận viết thêm chức năng các sản phẩm</span></li>
+                            <li><span>Nhận support cho các bạn sinh viên iT</span></li>
+                            <li><span>Nhận kèm 1:1 cho các bạn sinh viên hoặc các bạn mất gốc iT</span></li>
+                        </div>
+
+                        <!-- loi noi ket thuc -->
+                        <div class="loinoi">
+                            <span>
+                                Nếu bạn đang cần mình hỗ trợ hãy inbox cho mình để được triển khai dự án job , project
+                                ngay luôn.
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Donanet -->
+                     <div class="donnanet">
+                        <div class="tieude_atm">
+                            <h2>
+                                ATM
+                            </h2>
+                        </div>
+
+                        <!-- thong tin atm -->
+                         <div class="atm">
+                            <li>
+                                <b>
+                                    Chủ tài khoản: <span>Lê Văn Cường</span>
+                                </b>
+                            </li>
+                             <li>
+                                <b>
+                                    Số tài khoản: <span>18036111</span>
+                                </b>
+                            </li>
+                             <li>
+                                <b>
+                                   Ngân hàng: <span>ACB</span>
+                                </b>
+                            </li>
+                         </div>
+
+
+                         <!-- QR ZAlo Play -->
+                          <div class="play_zalo">
+                            <div class="zalo-play">
+                                <h2>
+                                    ZAlO Play
+                                </h2>
+                            </div>
+
+                            <!-- img QR Zalo Play -->
+                             <div class="igQR">
+                                <img src="Imgate/atm.jpg" alt="">
+                             </div>
+                          </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+        <!-- menu -->
+        <div class="menu">
+            <li onclick="thongtin()">
+                <i class="fa-solid fa-circle-user"></i>
+                <span>
+                    Thông tin
+                </span>
+            </li>
+            <li onclick="baiviet()">
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                <span>
+                    Bai viet
+                </span>
+            </li>
+            <li onclick="dichvu()">
+                <i class="fa-solid fa-phone"></i>
+                <span>
+                    Dich vu
+                </span>
+            </li>
+            <li onclick="donanet()">
+                <i class="fa-solid fa-hand-holding-dollar"></i>
+                <span>
+                    Donanet
+                </span>
+            </li>
+        </div>
+    </div>
+</body>
+
+<!-- To code link js -->
+<script src="JS/index.js"></script>
+<script src="JS/core.js"></script>
+<script src="JS/doliacute.js"></script>
+
+</html>
